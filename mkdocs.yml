@@ -11,6 +11,7 @@ theme:
   features:
     - navigation.expand
     - toc.integrate
+    - search.highlight
   palette:
     primary: indigo
     accent: blue

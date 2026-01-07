@@ -11,3 +11,16 @@
   display: inline-block;
   width: 0.5rem;
 }
+
+/* Increase overall content width */
+.md-grid {
+  max-width: 1440px;
+}
+
+/* Slightly increase page padding on wide screens so content breathes */
+@media (min-width: 1220px) {
+  .md-main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
