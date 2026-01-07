@@ -1,0 +1,30 @@
+site_name: 视觉基础大模型原理与应用
+site_url: https://your-domain.com
+repo_url: https://github.com/yourname/your-book
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+  palette:
+    primary: indigo
+    accent: blue
+
+nav:
+  - 简介: index.md
+  - 第一部分:
+    - 第一章: part1/chapter1.md
+    - 第二章: part1/chapter2.md
+  - 第二部分:
+    - 第三章: part2/chapter3.md
+
+plugins:
+  - search
+  - minify
+
+extra:
+  analytics:
+    provider: google
+    property: UA-XXXXX
