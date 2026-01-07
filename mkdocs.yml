@@ -31,7 +31,11 @@ nav:
     - 第四章 视觉大模型蒸馏: part2/chapter4.md
 
 plugins:
-  - search
+  - search:
+      lang:
+        - zh
+        - en
+      separator: "[\\s\\u200b\\u3000\\-\\u3001\\u3002\\uff0c\\uff0e\\uff1f\\uff01\\uff1b]+"
   - minify
   - git-revision-date-localized:
       fallback_to_build_date: true

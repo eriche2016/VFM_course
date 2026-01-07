@@ -24,3 +24,17 @@
     padding-right: 2rem;
   }
 }
+
+/* Move top-level nav items slightly away from the left edge */
+.md-sidebar {
+  padding-left: 0.75rem;
+}
+
+.md-nav__item--section > .md-nav__link {
+  padding-left: 1.25rem;
+}
+
+/* Ensure icons (if present) align nicely */
+.md-nav__link .md-icon {
+  margin-right: 0.35rem;
+}
