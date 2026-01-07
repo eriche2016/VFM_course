@@ -22,8 +22,8 @@ theme:
   favicon: assets/images/favicon.ico
 
 nav:
-  - 简介: index.md
-  - 第一部分 基础概念和核心原理: 
+  - 课程简介: index.md
+  - 第一部分 核心基础原理: 
     - 第一章 什么是视觉基础大模型: part1/chapter1.md
     - 第二章 视觉基础大模型如何构建: part1/chapter2.md
   - 第二部分 视觉大模型的应用与实践:
