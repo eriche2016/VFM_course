@@ -9,7 +9,7 @@ theme:
   name: material
   language: zh
   features:
-    - navigation.sections
+    - navigation.expand
     - toc.integrate
   palette:
     primary: indigo
@@ -22,12 +22,12 @@ theme:
 
 nav:
   - 简介: index.md
-  - 第一部分:
-    - 第一章: part1/chapter1.md
-    - 第二章: part1/chapter2.md
-  - 第二部分:
-    - 第三章: part2/chapter3.md
-    - 第四章: part2/chapter4.md
+  - 第一部分 基础概念和核心原理: 
+    - 第一章 什么是视觉基础大模型: part1/chapter1.md
+    - 第二章 视觉基础大模型如何构建: part1/chapter2.md
+  - 第二部分 视觉大模型的应用与实践:
+    - 第三章 参数高效微调: part2/chapter3.md
+    - 第四章 视觉大模型蒸馏: part2/chapter4.md
 
 plugins:
   - search
