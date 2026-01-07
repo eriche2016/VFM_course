@@ -1,0 +1,13 @@
+/* Increase indent for nested (second-level) sidebar items */
+.md-nav__list .md-nav__list .md-nav__link {
+  padding-left: 1.5rem;
+  font-size: 0.95em;
+  color: inherit;
+}
+
+/* Slight visual cue for collapsible sections */
+.md-nav__item--nested > .md-nav__link::before {
+  content: '';
+  display: inline-block;
+  width: 0.5rem;
+}

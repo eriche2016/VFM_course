@@ -23,11 +23,9 @@ theme:
 nav:
   - 简介: index.md
   - 第一部分:
-    - 概览: part1/index.md
     - 第一章: part1/chapter1.md
     - 第二章: part1/chapter2.md
   - 第二部分:
-    - 概览: part2/index.md
     - 第三章: part2/chapter3.md
     - 第四章: part2/chapter4.md
 
