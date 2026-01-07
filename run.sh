@@ -11,7 +11,7 @@
 ########################################
 
 # step 4: build site and move to root directory
-find . -maxdepth 1 ! -name 'docs'  ! -name 'mkdocs.yml' ! -name '.git' ! -name 'run.sh' ! -name '.' -exec rm -rf {} +
+find . -maxdepth 1 ! -name 'docs' ! -name 'scripts'  ! -name 'mkdocs.yml' ! -name '.git' ! -name 'run.sh' ! -name '.' -exec rm -rf {} +
 
 mkdocs build
 ###################################################
