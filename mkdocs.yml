@@ -19,6 +19,7 @@ nav:
     - 第二章: part1/chapter2.md
   - 第二部分:
     - 第三章: part2/chapter3.md
+    - 第四章: part2/chapter4.md
 
 plugins:
   - search
