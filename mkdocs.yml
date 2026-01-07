@@ -1,8 +1,8 @@
 site_name: 视觉基础大模型原理与应用
 site_description: 一本关于视觉基础大模型原理与应用的中文教材
-site_url: https://your-domain.com
-repo_name: yourname/your-book
-repo_url: https://github.com/yourname/your-book
+site_url: https://eriche2016.github.io/VFM_course
+repo_name: eriche2016/VFM_course
+repo_url: https://github.com/eriche2016/VFM_course
 edit_uri: ''
 
 theme:
