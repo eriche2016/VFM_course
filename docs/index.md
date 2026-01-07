@@ -1,6 +1,10 @@
 
-Introduction to Visual Foundation Models Course(By AI)
+Introduction to Visual Foundation Models Course
 =======================================
+<p align="center">
+    <img src="assets/images/logo.png" alt="Course Logo" style="max-width:240px; height:auto;">
+</p>
+
 Welcome to the "Introduction to Visual Foundation Models" course! This course is designed to provide a comprehensive overview of visual foundation models, their architectures, training methodologies, and applications in various computer vision tasks.
 Course Structure
 -----------------
