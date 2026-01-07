@@ -1,16 +1,24 @@
 site_name: 视觉基础大模型原理与应用
+site_description: 一本关于视觉基础大模型原理与应用的中文教材
 site_url: https://your-domain.com
+repo_name: yourname/your-book
 repo_url: https://github.com/yourname/your-book
+edit_uri: ''
 
 theme:
   name: material
+  language: zh
   features:
-    - navigation.tabs
     - navigation.sections
     - toc.integrate
   palette:
     primary: indigo
     accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
 
 nav:
   - 简介: index.md
@@ -24,8 +32,33 @@ nav:
 plugins:
   - search
   - minify
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: false
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.tabbed
+  - attr_list
 
 extra:
   analytics:
     provider: google
     property: UA-XXXXX
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourname/your-book
+  stylesheet: stylesheets/overrides.css
+
+extra_css:
+  - stylesheets/overrides.css
+
+extra_javascript:
+  - javascripts/custom.js
