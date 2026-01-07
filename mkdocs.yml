@@ -6,7 +6,8 @@ repo_url: https://github.com/yourname/your-book
 edit_uri: ''
 
 theme:
-  name: material
+  name: readthedocs
+  highlightjs: true
   language: zh
   features:
     - navigation.expand
@@ -14,12 +15,11 @@ theme:
     - search.highlight
   palette:
     primary: indigo
-    accent: blue
+    accent: black
   font:
     text: Roboto
     code: Roboto Mono
-  logo: assets/images/favicon.ico
-  favicon: assets/images/favicon.ico
+  favicon: img/favicon.ico
 
 nav:
   - 课程简介: index.md

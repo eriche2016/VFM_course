@@ -19,7 +19,7 @@ find . -maxdepth 1 ! -name 'docs'  ! -name 'mkdocs.yml' ! -name '.git' ! -name '
 mkdocs build
 # mv site to root directory
 mv site/* .
-mv logo.png assets/images/logo.png
+mv logo.png img/logo.png
 #########################################
 # step 6: clean up
 # remove site directory
