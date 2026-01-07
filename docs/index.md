@@ -1,17 +1,26 @@
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Introduction to Visual Foundation Models Course(By AI)
+=======================================
+Welcome to the "Introduction to Visual Foundation Models" course! This course is designed to provide a comprehensive overview of visual foundation models, their architectures, training methodologies, and applications in various computer vision tasks.
+Course Structure
+-----------------
+The course is divided into four main chapters:
+1. What are Visual Foundation Models?
+   - Overview of visual foundation models
+   - Key characteristics and capabilities
+   - Comparison with traditional computer vision models
+2. How are Visual Foundation Models Built?
+    - Architectural components
+    - Training methodologies
+    - Data requirements and preprocessing
+3. Parameter-Efficient Fine-Tuning
+    - Techniques for fine-tuning large models
+    - Case studies and practical examples
+4. Distillation of Visual Foundation Models
+    - Knowledge distillation techniques
+    - Benefits and challenges
+    - Applications in resource-constrained environments
+Getting Started
+---------------
+To get started with the course, navigate through the chapters using the sidebar. Each chapter contains detailed explanations, code examples, and practical exercises to reinforce your understanding.
+Happy Learning!
