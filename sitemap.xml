@@ -5,11 +5,19 @@
          <lastmod>2026-01-07</lastmod>
     </url>
     <url>
+         <loc>https://your-domain.com/part1/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
          <loc>https://your-domain.com/part1/chapter1/</loc>
          <lastmod>2026-01-07</lastmod>
     </url>
     <url>
          <loc>https://your-domain.com/part1/chapter2/</loc>
+         <lastmod>2026-01-07</lastmod>
+    </url>
+    <url>
+         <loc>https://your-domain.com/part2/</loc>
          <lastmod>2026-01-07</lastmod>
     </url>
     <url>
