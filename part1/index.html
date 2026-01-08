@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://eriche2016.github.io/VFM_course/part1/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>第一部分 — 概览 - 视觉基础大模型原理与应用</title>
+    <title>第一部分 — 视觉与生成大模型导论 - 视觉基础大模型原理与应用</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -13,7 +13,7 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "\u7b2c\u4e00\u90e8\u5206 \u2014 \u6982\u89c8";
+        var mkdocs_page_name = "\u7b2c\u4e00\u90e8\u5206 \u2014 \u89c6\u89c9\u4e0e\u751f\u6210\u5927\u6a21\u578b\u5bfc\u8bba";
         var mkdocs_page_input_path = "part1/index.md";
         var mkdocs_page_url = "/VFM_course/part1/";
       </script>
@@ -46,16 +46,22 @@
               </ul>
               <p class="caption"><span class="caption-text">第一部分 核心基础原理</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="chapter1/">第一章 什么是视觉基础大模型</a>
+                  <li class="toctree-l1"><a class="reference internal" href="chapter1/">第一章 视觉理解任务范式的迁移</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="chapter2/">第二章 视觉基础大模型如何构建</a>
+                  <li class="toctree-l1"><a class="reference internal" href="chapter2/">第二章 视觉生成任务范式的迁移</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="chapter3/">第三章 视觉理解与生成任务范式的融合</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="chapter4/">第四章 3D 基础大模型</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="chapter5/">第五章 视频生成大模型</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">第二部分 视觉大模型的应用与实践</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../part2/chapter3/">第三章 参数高效微调</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../part2/chapter6/">第六章 视觉大模型的高效微调</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../part2/chapter4/">第四章 视觉大模型蒸馏</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../part2/chapter7/">第七章 视觉大模型的蒸馏技术</a>
                   </li>
               </ul>
       </div>
@@ -72,7 +78,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">第一部分 — 概览</li>
+      <li class="breadcrumb-item active">第一部分 — 视觉与生成大模型导论</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -81,13 +87,28 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="_1">第一部分 — 概览<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
-<p>本节介绍第一部分的主要内容与学习目标。</p>
+                <h1 id="_1">第一部分 — 视觉与生成大模型导论<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>本部分概述视觉理解与生成领域中的基础概念、模型范式与迁移学习方法。目标是帮助读者从传统任务范式过渡到以大模型（如CLIP、GAN、扩散模型、3D与视频大模型）为核心的研究与工程实践。</p>
+<p><strong>学习目标</strong></p>
 <ul>
-<li>章节：</li>
-<li>第一章：基础概念</li>
-<li>第二章：关键方法</li>
+<li>理解视觉理解与生成的主要任务范式与代表模型。</li>
+<li>掌握迁移学习与微调在视觉任务中的常见策略。</li>
+<li>了解视觉理解、生成与三维/视频大模型的融合趋势与应用场景。</li>
 </ul>
+<p>本部分包含五章，按由浅入深的顺序组织：</p>
+<ul>
+<li>第一章：视觉理解任务范式的迁移 — 介绍传统视觉理解任务、CLIP 等视觉-文本大模型、迁移学习与微调方法，以及将 LLM 与视觉模块结合的思路。<a href="chapter1/">阅读第一章</a></li>
+<li>第二章：视觉生成任务范式的迁移 — 覆盖 GAN、扩散模型与生成模型的迁移学习实践，讨论生成任务中的训练与评估要点。<a href="chapter2/">阅读第二章</a></li>
+<li>第三章：视觉理解与生成任务范式的融合 — 探讨理解与生成任务的协同、代表性融合模型与在融合场景中的迁移策略。<a href="chapter3/">阅读第三章</a></li>
+<li>第四章：3D 基础大模型 — 介绍 3D 表示与基础大模型、典型应用（重建、渲染、仿真）及其训练与迁移方法。<a href="chapter4/">阅读第四章</a></li>
+<li>第五章：视频生成大模型 — 讲解视频生成的模型架构、训练策略与实际应用案例，及对计算与数据的挑战分析。<a href="chapter5/">阅读第五章</a></li>
+</ul>
+<p><strong>如何阅读本部分</strong></p>
+<ul>
+<li>若你关注模型原理与训练方法，建议按章顺序阅读并关注每章的示例代码与实践提示。</li>
+<li>若你希望快速上手应用场景，可先阅读第二章与第五章，了解生成模型与视频模型的使用要点，再回到第一章与第三章补充理解。</li>
+</ul>
+<p>欢迎在每章末尾查看“本章小结”与参考实现代码片段，以便将理论知识转为工程实践。</p>
               
             </div>
           </div><footer>

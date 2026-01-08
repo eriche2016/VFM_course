@@ -2,30 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://eriche2016.github.io/VFM_course/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-01-08</lastmod>
     </url>
     <url>
          <loc>https://eriche2016.github.io/VFM_course/part1/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-01-08</lastmod>
     </url>
     <url>
          <loc>https://eriche2016.github.io/VFM_course/part1/chapter1/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-01-08</lastmod>
     </url>
     <url>
          <loc>https://eriche2016.github.io/VFM_course/part1/chapter2/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://eriche2016.github.io/VFM_course/part1/chapter3/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://eriche2016.github.io/VFM_course/part1/chapter4/</loc>
+         <lastmod>2026-01-08</lastmod>
+    </url>
+    <url>
+         <loc>https://eriche2016.github.io/VFM_course/part1/chapter5/</loc>
+         <lastmod>2026-01-08</lastmod>
     </url>
     <url>
          <loc>https://eriche2016.github.io/VFM_course/part2/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <lastmod>2026-01-08</lastmod>
     </url>
     <url>
-         <loc>https://eriche2016.github.io/VFM_course/part2/chapter3/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <loc>https://eriche2016.github.io/VFM_course/part2/chapter6/</loc>
+         <lastmod>2026-01-08</lastmod>
     </url>
     <url>
-         <loc>https://eriche2016.github.io/VFM_course/part2/chapter4/</loc>
-         <lastmod>2026-01-07</lastmod>
+         <loc>https://eriche2016.github.io/VFM_course/part2/chapter7/</loc>
+         <lastmod>2026-01-08</lastmod>
     </url>
 </urlset>

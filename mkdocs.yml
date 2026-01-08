@@ -23,12 +23,15 @@ theme:
 
 nav:
   - 课程简介: index.md
-  - 第一部分 核心基础原理: 
-    - 第一章 什么是视觉基础大模型: part1/chapter1.md
-    - 第二章 视觉基础大模型如何构建: part1/chapter2.md
+  - 第一部分 核心基础原理:
+    - 第一章 视觉理解任务范式的迁移: part1/chapter1.md
+    - 第二章 视觉生成任务范式的迁移: part1/chapter2.md
+    - 第三章 视觉理解与生成任务范式的融合: part1/chapter3.md
+    - 第四章 3D 基础大模型: part1/chapter4.md
+    - 第五章 视频生成大模型: part1/chapter5.md
   - 第二部分 视觉大模型的应用与实践:
-    - 第三章 参数高效微调: part2/chapter3.md
-    - 第四章 视觉大模型蒸馏: part2/chapter4.md
+    - 第六章 视觉大模型的高效微调: part2/chapter6.md
+    - 第七章 视觉大模型的蒸馏技术: part2/chapter7.md
 
 plugins:
   - search:
